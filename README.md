@@ -24,3 +24,14 @@ npm start chat
 ```sh
 npm start <your phone number>
 ```
+
+**How to gain access your personalized Twilio phone number**
+1. Sign up to your Twilio account 
+2. Use your Twilio API and log into your console 
+3. Set up your sip trunk 
+4. Go to tab `Numbers`
+5. Copy your Twilio number to sip trunk
+6. Go to tab `Termination`
+7. Write `Termination URI`, Such as, `My-Peach-AI-app.pstn.twilio.com`
+8. Add credentials for auth with `Username` = `Phone number` you want to use, and some password
+
