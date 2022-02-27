@@ -1,0 +1,102 @@
+####################################################################################################
+ai: Hi, my name is Peach, I'm calling in regard to your Rental application for the apartment 975 academy way with land lord Samir. Is this an appropriate time to talk?
+[
+  {
+    "type": "Intent",
+    "skill": "2d30264eee83d426ea08995717a70ca1:v2",
+    "weight": 0.99953,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "yes",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: Of course.
+ai: Thank you very much for your replies. At this point I would like to invite you to an in-person Viewing of the property. What day would work best for you?
+[
+  {
+    "type": "Data",
+    "skill": "2d30264eee83d426ea08995717a70ca1:v2",
+    "weight": 0.99989,
+    "likelihood": 1,
+    "location": {
+      "start": 0,
+      "end": 7
+    },
+    "factType": "day_of_week",
+    "data": {
+      "value": "Tuesday"
+    }
+  },
+  {
+    "type": "Intent",
+    "skill": "common_phrases",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 1,
+      "end": 2
+    },
+    "intent": "potential_call_later",
+    "state": "positive",
+    "sentenceType": "request"
+  }
+]
+human: Tuesday next week.
+ai: Tuesday, you say?
+[
+  {
+    "type": "Intent",
+    "skill": "2d30264eee83d426ea08995717a70ca1:v2",
+    "weight": 0.99982,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "yes",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: That's right.
+ai: Uh-huh, fantastic. And what hour works best for you?
+[
+  {
+    "type": "Data",
+    "skill": "2d30264eee83d426ea08995717a70ca1:v2",
+    "weight": 0.99465,
+    "likelihood": 1,
+    "location": {
+      "start": 0,
+      "end": 7
+    },
+    "factType": "time",
+    "data": {
+      "value": "1 pm"
+    }
+  }
+]
+human: 1:00 PM
+ai: You said 1 pm, is that right?
+[
+  {
+    "type": "Intent",
+    "skill": "2d30264eee83d426ea08995717a70ca1:v2",
+    "weight": 0.99982,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "yes",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: That's right.
+ai: Wonderful! Um... This concludes our call, I will relay your replies to the land lord. Have a fantastic rest of the day. Bye!
